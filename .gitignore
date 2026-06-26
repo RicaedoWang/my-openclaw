@@ -1,0 +1,117 @@
+# =========================
+# 敏感：凭证、身份、设备
+# =========================
+credentials/
+identity/
+devices/
+
+# =========================
+# 敏感：主配置（含 token & appSecret）
+# =========================
+openclaw.json
+openclaw.json.bak
+openclaw.json.bak.*
+openclaw.json.last-good
+*.bak
+*.bak.*
+*.last-good
+
+# =========================
+# 敏感：环境变量类
+# =========================
+.env
+.env.*
+**/.env
+**/.env.*
+
+# 密钥文件
+*.pem
+*.key
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+
+# =========================
+# 运行态：state / logs / 缓存
+# =========================
+state/
+logs/
+npm/
+media/
+completions/
+tui/
+workspace-attestations/
+
+# SQLite 数据库
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+**/*.sqlite
+**/*.sqlite-shm
+**/*.sqlite-wal
+
+# Session 与轨迹数据
+agents/main/sessions/
+
+# =========================
+# 渠道 & 插件运行时
+# =========================
+openclaw-weixin/
+gateway.cmd
+gateway-restart-intent.json
+gateway-supervisor-restart-handoff.json
+update-check.json
+
+# =========================
+# Git 内部状态
+# =========================
+.git/
+**/.git/
+**/.git
+**/.gitignore.bak
+
+# =========================
+# clawhub / 包管理器内部
+# =========================
+.clawhub/
+**/.clawhub/
+**/origin.json
+workspace/skills/*/.clawhub/
+
+# =========================
+# workspace 内的外部 git 仓库 clone
+# =========================
+workspace/github-public/
+workspace/*/github-public/
+
+# =========================
+# 节点依赖
+# =========================
+node_modules/
+**/node_modules/
+
+# =========================
+# OS / 编辑器
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# =========================
+# workspace 运行时状态
+# =========================
+workspace/openclaw-workspace-state.json
+
+# =========================
+# 备份类
+# =========================
+*~
+*.tmp
+*.temp
+*.log

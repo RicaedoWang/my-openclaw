@@ -1,0 +1,11 @@
+{
+  "lastChecks": {
+    "email": null,
+    "calendar": null,
+    "weather": null,
+    "mentions": null
+  },
+  "lastHeartbeat": "2026-06-26T09:05:00+08:00",
+  "lastReminderType": "心跳",
+  "notes": "Friday morning heartbeat. 胡子喵 第二天上班。还没接入任何外部服务（邮箱/日历/天气位置），可检查项都是 null。给 少爷 发了周五早安 + 求任务。"
+}
